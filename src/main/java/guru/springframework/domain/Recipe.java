@@ -2,7 +2,6 @@ package guru.springframework.domain;
 
 import lombok.Getter;
 import lombok.Setter;
-import lombok.ToString;
 
 import javax.persistence.*;
 import java.util.HashSet;
@@ -14,7 +13,6 @@ import java.util.Set;
 @Getter
 @Setter
 @Entity
-@ToString
 public class Recipe {
 
     @Id
