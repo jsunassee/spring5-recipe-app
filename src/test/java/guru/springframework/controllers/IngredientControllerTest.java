@@ -6,7 +6,6 @@ import guru.springframework.services.IngredientService;
 import guru.springframework.services.RecipeService;
 import guru.springframework.services.UnitOfMeasureService;
 import org.junit.Before;
-import org.junit.Ignore;
 import org.junit.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
@@ -77,7 +76,7 @@ public class IngredientControllerTest {
     }
 
 
-    @Ignore
+
     @Test
     public void testNewIngredientForm() throws Exception {
         //given
